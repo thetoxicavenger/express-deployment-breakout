@@ -6,7 +6,7 @@ const compression = require('compression')
 const helmet = require('helmet')
 require('dotenv').config()
 
-console.log(process.env.API_KEY)
+console.log(process.env)
 
 const app = express()
 
