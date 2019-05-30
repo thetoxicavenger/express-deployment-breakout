@@ -36,4 +36,4 @@ app.put('/api/todos/:id', (req, res) => {
     res.json(req.body)
 })
 
-app.listen(3000)
+app.listen(process.env.PORT || 3000)
