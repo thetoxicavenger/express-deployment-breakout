@@ -4,6 +4,9 @@ const fs = require('fs')
 const cors = require('cors')
 const compression = require('compression')
 const helmet = require('helmet')
+require('dotenv').config()
+
+console.log(process.env.API_KEY, process.env.STORAGE_BUCKET)
 
 const app = express()
 
